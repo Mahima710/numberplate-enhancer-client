@@ -1,0 +1,100 @@
+/* .dropinput {
+    width: 40vw;
+    height: 30vh;
+    cursor: pointer;
+    color: white;
+}
+
+.dropinput::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.drop {
+    cursor: pointer;
+    background-color: white;
+    width: 35vw;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    border-radius: 40px;
+    height: 30vh;
+    padding: 3rem; 
+    outline: 2px dashed gray;
+    box-shadow: 0px 0px 0px 17px white;
+}
+
+.label {
+    font-size: larger;
+    padding-top: "5rem";
+    text-align: "center";
+    z-index: -1;
+} */
+
+
+.dropzone {
+    text-align: center;
+    padding: 40px;
+    border: 3px #949293 dashed;
+    width: 30vw;
+    height: 30vh;
+    margin-right: 5rem;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 10px white;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    background-color: rgb(218, 216, 216);
+    height: 50px;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    transition-duration: 0.6s;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.file-list {
+    /* border: 3px dotted black; */
+    display: flex !important;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 10px 20px;
+    margin: 20px 30px;
+    /* border: 3px dotted black; */
+}
+
+.file-list img {
+    height: 100%;
+    width: 100px;
+    padding-right: 10px;
+    object-fit: cover;
+}
+
+.imageSelected .file-item {
+    width: 80vw;
+    margin: auto;
+}
+
+.btn1 {
+    border: none;
+    text-align: center;
+    background-color: rgb(96, 96, 96);
+    height: 50px;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.6s;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 16rem;
+    margin-bottom: 1rem;
+    width: 20vw;
+    z-index: 255;
+
+}
